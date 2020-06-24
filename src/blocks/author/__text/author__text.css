@@ -1,0 +1,10 @@
+.author__text {
+  max-width: 600px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width:768px) {
+  .author__text {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+.techno__item {
+  margin-right: 40px;
+}
+
+.techno__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width:1330px) {
+  .techno__item {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .techno__item {
+    margin-right: 0;
+  }
+  .techno__item:last-of-type {
+    margin-right: 14px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .techno__item {
+    margin-top: 22px;
+  }
+
+  .techno__item:last-of-type {
+    margin-right: 0;
+  }
+}
+

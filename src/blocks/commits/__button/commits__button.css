@@ -1,0 +1,9 @@
+.commits__button {
+  display: none !important;
+}
+
+@media screen and (max-width:450px) {
+  .commits__button {
+    display: block !important;
+  }
+}

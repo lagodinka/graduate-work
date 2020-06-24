@@ -1,0 +1,9 @@
+.analytics__table {
+  margin-top: 48px;
+}
+
+@media screen and (max-width:450px) {
+  .analytics__table {
+    margin-top: 16px;
+  }
+}

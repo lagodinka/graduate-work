@@ -1,0 +1,17 @@
+@import url(./__route/route__route.css);
+
+.route {
+  padding: 40px 104px 0;
+}
+
+@media screen and (max-width:1024px) {
+  .route {
+    padding: 32px 40px 26px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .route {
+    display: none;
+  }
+}

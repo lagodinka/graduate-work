@@ -1,0 +1,6 @@
+@media screen and (max-width:1024px) {
+  .markup_vertical {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 40px;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width:450px) {
+  .request__request {
+    line-height: 34px !important;
+  }
+}

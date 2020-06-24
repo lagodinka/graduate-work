@@ -1,0 +1,26 @@
+@import url(./_theme/_dark/header__link_theme_dark.css);
+@import url(./_theme/_light/header__link_theme_light.css);
+
+.header__link {
+  text-decoration: none;
+  color: #B6BCBF;
+  padding: 27.5px 0;
+  transition: color .3s linear;
+}
+
+.header__link:hover {
+  cursor: url(/src/images/lapka.svg), pointer;
+}
+
+@media screen and (max-width:1024px) {
+  .header__link {
+    padding: 22px 0;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .header__link {
+    padding: 18px 0;
+  }
+}
+

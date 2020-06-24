@@ -1,0 +1,15 @@
+.footer__copy {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B6BCBF;
+}
+
+@media screen and (max-width:450px) {
+  .footer__copy {
+    align-self: flex-end;
+    position: absolute;
+  }
+}

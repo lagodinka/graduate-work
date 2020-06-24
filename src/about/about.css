@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/for-clients/for-clients.css);
+@import url(../blocks/techno/techno.css);
+@import url(../blocks/author/author.css);
+@import url(../blocks/technology/technology.css);
+@import url(../blocks/markup/markup.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/flickity/flickity.css);
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/commit-card/commit-card.css);
+@import url(../blocks/commits/commits.css);
+@import url(../blocks/button/button.css);

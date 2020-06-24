@@ -1,0 +1,20 @@
+.preloader {
+  display:block;
+	width: 74px;
+  height: 74px;
+  margin-bottom: 24px;
+  border: double 2px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#F5F6F7, #F5F6F7),
+                    linear-gradient(#444444, #F5F6F7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: spin 1.5s infinite linear;
+  animation-direction: reverse;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,18 @@
+.analytics__day {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 56px;
+}
+
+.analytics__day:nth-of-type(7) {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .analytics__day {
+    margin-bottom: 24px;
+  }
+}

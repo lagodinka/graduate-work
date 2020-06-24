@@ -1,0 +1,25 @@
+.cover__title {
+  font-family: 'Roboto Slab', Courier, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    max-width: 385px;
+    font-size: 48px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 385px;
+  }
+}
+

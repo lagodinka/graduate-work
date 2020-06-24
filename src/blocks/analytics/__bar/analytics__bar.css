@@ -1,0 +1,33 @@
+@import url(./_monday/analytics__bar_monday.css);
+@import url(./_tuesday/analytics__bar_tuesday.css);
+@import url(./_wednesday/analytics__bar_wednesday.css);
+@import url(./_thursday/analytics__bar_thursday.css);
+@import url(./_friday/analytics__bar_friday.css);
+@import url(./_saturday/analytics__bar_saturday.css);
+@import url(./_sunday/analytics__bar_sunday.css);
+
+.analytics__bar {
+  height: 24px;
+  background: #2F71E5;
+  margin-bottom: 56px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: #fff;
+  padding-left: 6px;
+}
+
+@media screen and (max-width: 450px) {
+  .analytics__bar {
+    margin-bottom: 24px;
+  }
+}
+
+.analytics__bar:nth-of-type(7) {
+  margin-bottom: 0;
+}

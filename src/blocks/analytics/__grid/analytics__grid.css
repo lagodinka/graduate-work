@@ -1,0 +1,16 @@
+.analytics__grid {
+  display: grid;
+  grid-template-columns: 104px auto;
+}
+
+@media screen and (max-width:1024px) {
+  .analytics__grid{
+    grid-template-columns: 117px auto;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .analytics__grid{
+    grid-template-columns: 80px auto;
+  }
+}

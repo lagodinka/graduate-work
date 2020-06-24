@@ -1,0 +1,30 @@
+.button_theme_dark {
+  background: #2F71E5;
+  transition: background .3s linear;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  color: #fff;
+  border-radius: 100px;
+  width: 168px;
+}
+
+.button_theme_dark:hover {
+  background: #347EFF;
+}
+
+.button_theme_dark:active {
+  background: #2A65CC;
+}
+
+@media screen and (max-width:768px) {
+  .button_theme_dark {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .button_theme_dark{
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+

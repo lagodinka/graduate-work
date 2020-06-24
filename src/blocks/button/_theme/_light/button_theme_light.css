@@ -1,0 +1,23 @@
+.button_theme_light {
+  background: #fff;
+  transition: background .3s linear;
+  border-radius: 80px;
+  width: 288px;
+}
+
+.button_theme_light:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width:768px) {
+  .button_theme_light {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button_theme_light{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,19 @@
+.cover__search-input {
+  font-size: 16px;
+  line-height: 22px;
+  width: calc(100% - 24px*2);
+  padding: 21px 24px;
+  border-radius: 100px;
+  border: 0;
+  transition: box-shadow 0.2s linear;
+}
+
+.cover__search-input:focus, .cover__search-input:hover {
+  box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__search-input {
+    padding: 17px 24px;
+  }
+}

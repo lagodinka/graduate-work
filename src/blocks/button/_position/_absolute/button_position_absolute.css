@@ -1,0 +1,11 @@
+.button_position_absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width:480px) {
+  .button_position_absolute {
+    position: static;
+  }
+}
