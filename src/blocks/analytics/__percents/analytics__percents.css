@@ -1,0 +1,18 @@
+.analytics__percents {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:1024px) {
+  .analytics__percents {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .analytics__percents {
+    display: none;
+  }
+}

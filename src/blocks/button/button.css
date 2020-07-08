@@ -1,0 +1,26 @@
+@import url(./_theme/_dark/button_theme_dark.css);
+@import url(./_theme/_light/button_theme_light.css);
+@import url(./_theme/_transparent/button_theme_transparent.css);
+@import url(./_position/_absolute/button_position_absolute.css);
+@import url(./_position/_center/button_position_center.css);
+
+.button {
+  display: block;
+  border: 0;
+  height: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button:hover {
+  cursor: url(/src/images/lapka.svg), pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .button {
+    height: 56px;
+  }
+
+}

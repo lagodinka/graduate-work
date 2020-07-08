@@ -1,0 +1,14 @@
+@import url(./_left/section__gradient_left.css);
+@import url(./_right/section__gradient_right.css);
+
+.section__gradient {
+  position: absolute;
+  height: 100%;
+  width: 88px;
+}
+
+@media screen and (max-width:1024px) {
+  .section__gradient {
+    display: none;
+  }
+}

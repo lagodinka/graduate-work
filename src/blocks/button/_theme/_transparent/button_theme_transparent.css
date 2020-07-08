@@ -1,0 +1,12 @@
+.button_theme_transparent {
+  border: 1px solid #1A1B22 !important;
+  box-sizing: border-box;
+  border-radius: 80px;
+  width: 100%;
+  background-color: inherit;
+  transition: background-color 0.3s linear;
+}
+
+.button_theme_transparent:hover {
+  background-color: #fafbfc;
+}

@@ -1,0 +1,9 @@
+.request__summary {
+  margin-top:24px;
+}
+
+@media screen and (max-width:450px) {
+  .request__summary {
+    margin-top:16px;
+  }
+}

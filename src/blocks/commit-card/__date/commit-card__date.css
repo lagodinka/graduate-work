@@ -1,0 +1,15 @@
+.commit-card__date {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B6BCBF;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 450px) {
+  .commit-card__date {
+    margin-bottom: 8px;
+  }
+}

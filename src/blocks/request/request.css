@@ -1,0 +1,10 @@
+@import url(./__request/request__request.css);
+@import url(./__text/request__text.css);
+@import url(./__summary/request__summary.css);
+
+@media screen and (max-width:450px) {
+  .request {
+  padding-bottom: 24px !important;
+  padding-top: 16px !important;
+  }
+}

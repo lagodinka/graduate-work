@@ -1,0 +1,16 @@
+.section__paragraph {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width:768px) {
+  .section__paragraph {
+    margin-bottom: 0;
+  }
+}

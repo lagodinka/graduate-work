@@ -1,0 +1,9 @@
+.author__info {
+  margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+  .author__info {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width:1024px) {
+  .section__title_limited {
+    max-width: 336px;
+  }
+}
