@@ -6,7 +6,7 @@
 
 .news-card {
   max-width: 400px;
-  min-height: 576px;
+  height: 576px;
   background: #fff;
   border-radius: 20px;
 }
@@ -14,14 +14,14 @@
 @media screen and (max-width: 1024px) {
   .news-card {
     max-width: 320px;
-    min-height: 490px;
+    height: 490px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .news-card {
     max-width: 224px;
-    min-height: 420px;
+    height: 420px;
   }
 }
 

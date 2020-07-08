@@ -1,3 +1,15 @@
 .analytics__bar_saturday {
-  width: 90%;
+  width : 100%;
+  animation: animate 2s;
+  --final-width: 0%;
+}
+
+
+@keyframes animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: var(--final-width);
+  }
 }
