@@ -1,3 +1,15 @@
 .analytics__bar_tuesday {
-  width: 30%;
+  width : 100%;
+  animation: animate 2s;
+  --final-width: 0%;
+}
+
+
+@keyframes animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: var(--final-width);
+  }
 }
