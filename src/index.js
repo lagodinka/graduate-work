@@ -21,8 +21,7 @@ const showMoreButton = new Switch(document.querySelector('.results__show-button'
 
 
 const newsCardList = new NewsCardList(container, showMoreButton);
-// const newsApi = new NewsAPI('http://newsapi.org/v2/everything?', '09ffd6fceac0482dafccc74cab09ba15');
-const newsApi = new NewsAPI('http://praktikum.tk/news/v2/everything?', '09ffd6fceac0482dafccc74cab09ba15');
+const newsApi = new NewsAPI('https://praktikum.tk/news/v2/everything?', '09ffd6fceac0482dafccc74cab09ba15');
 const searchInput = new SearchInput(form, processNews, newsApi, newsCardList);
 const dataStorage = new DataStorage();
 

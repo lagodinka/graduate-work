@@ -9,10 +9,15 @@ export default class SearchInput {
   }
 
   formValidate() {
-
+    const item = this.input;
+    if (item.validity.valueMissing) item.setCustomValidity('Кажется, Вы ничего не ввели(');
+    else item.setCustomValidity('');
   }
 
   setEventListener() {
+    const item = this.input;
+    this.formValidate();
+    item.addEventListener('input', () => this.formValidate());
     this.form.addEventListener('submit', (event) => {
       event.preventDefault();
       this.runSearch();
